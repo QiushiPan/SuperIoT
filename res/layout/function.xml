@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.69"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sensorbutton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonground"
+            android:textSize="20sp"
+            android:textColor="#46a9d0" 
+            android:layout_margin="20dp"
+            android:text="传感器数据" />
+
+        <Button
+            android:id="@+id/beidoubutton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonground"
+            android:textSize="20sp"
+            android:textColor="#46a9d0" 
+            android:layout_margin="20dp"
+            android:text="北斗数据" />
+
+    </LinearLayout>
+
+</LinearLayout>

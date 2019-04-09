@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ustbiotlogo" />
+
+    <EditText 
+        android:text="USTB" 
+        android:layout_height="wrap_content" 
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+        android:id="@+id/usernametext">        
+    </EditText>
+
+    
+    <EditText
+        android:text="" 
+        android:id="@+id/passwordtext" 
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+            android:layout_margin="5dp"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+    
+       <Button 
+            android:id="@+id/loginbutton"
+            android:layout_width="200dp"
+        	android:layout_height="50dp"
+        	android:layout_gravity="center_horizontal"
+            android:gravity="center" 
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:background="#0a0b06"
+            android:textColor="#3489aa" 
+        	android:text="登录"
+       />
+
+</LinearLayout>
